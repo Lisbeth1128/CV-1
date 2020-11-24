@@ -43,7 +43,7 @@ body {
     #div1 {
         height: 40vh;
         position: relative;
-        top: 0;
+        top: 20px;
         right: 0;
     }
 }
