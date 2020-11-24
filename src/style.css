@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#html {
+    word-break: break-all;
+}
+
+#div1 {
+    position: fixed;
+    right: 50%;
+    top: 10px;
+}
+
+#div1::before {
+    content: '';
+    display: block;
+    position: relative;
+}
+
+#div1::after {
+    content: '';
+    display: block;
+    position: relative;
+}
+
+@media(max-width: 500px) {
+    #html {
+        height: 60vh;
+        overflow: hidden;
+    }
+    #div1 {
+        height: 40vh;
+        position: relative;
+        top: 20px;
+        right: 0;
+    }
+}
