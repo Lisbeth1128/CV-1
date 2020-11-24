@@ -40,10 +40,13 @@ body {
         height: 60vh;
     }
 
-    #div1 {
+    #div1wrapper {
         height: 40vh;
         position: relative;
-        top: 0;
+    }
+    #div1 {
+        position: relative;
+        top: 50px;
         right: 0;
     }
 }
